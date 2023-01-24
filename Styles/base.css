@@ -1,0 +1,23 @@
+:root{
+   /*Colores*/
+    --color-oscuro:#F8BC25;
+    --color-claro: #D99221;
+    --color-fondo: #F08E31;
+    --color-letra: #D95F21;
+    --color-medio: #F84E25;
+
+    /*Fuentes*/
+    --fredoka: 'Fredoka One', cursive;
+    --monoton: 'Monoton', cursive;
+    --outfit: 'Outfit', sans-serif;
+ 
+ }
+
+body{
+   height: 100vh;
+   background-color: var(--color-fondo);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}

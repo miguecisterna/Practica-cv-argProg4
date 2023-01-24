@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    flex-direction: row;
+    background: var(--color-oscuro);
+    padding: 3rem;
+    border-radius: 9rem 12rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 30vw;
+    margin-right: 3rem;
+}
+
+.rectangulo1{
+    width: 12vw;
+    height: 6vh;
+    background-color: var(--color-fondo);
+    border-radius: 9rem 0;
+}
+
+article h1{
+    font-family: var(--monoton);
+    color: var(--color-medio);
+    margin-bottom: 1.2rem;
+}
+
+article h3{
+    font-family: var(--fredoka);
+    color: var(--color-letra);  
+}
+
+.rectangulo2{
+    width: 18rem;
+    height: 3rem;
+    background-color: var(--color-fondo);
+    border-radius: 0 9rem;
+}
+
+aside{
+    background: var(--color-fondo);
+    padding: 1.2rem;
+    border-radius: 6rem 9rem;
+    display: flex;
+    flex-direction: column;
+    height: 63vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+aside img{
+    width: 30vw;
+    border-radius: 3rem 6rem;
+}
+
+aside a{
+    font-family: var(--fredoka);
+    color: var(--color-medio);
+    text-decoration: none;
+    background: var(--color-oscuro);
+    width: 21vw;
+    padding: 0.3rem;
+    border-radius: 3rem 6rem;
+    text-align: center;
+}

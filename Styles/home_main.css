@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-medio);
+    width: 84vw;
+    border-radius: 10rem;
+    height: 42vh;
+    padding: 2.1rem 3.9rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+article h3{
+    font-family: 'Fredoka One';
+    color: var(--color-fondo);
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+article p{
+    font-family: var(--outfit);
+    margin: 0 3rem 1.8rem;
+    width: 48vw;
+}
+
+.rectangulo1 {
+    width: 6vw;
+    height: 30vh;
+    background-color: var(--color-oscuro);
+    border-radius: 9rem;
+}
+
+.rectangulo2{
+    width: 6vw;
+    height: 21vh;
+    background-color: antiquewhite;
+    border-radius: 9rem;
+}
